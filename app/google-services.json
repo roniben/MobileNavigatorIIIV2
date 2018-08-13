@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "616613994413",
+    "firebase_url": "https://mobilenavigatorii-3629b.firebaseio.com",
+    "project_id": "mobilenavigatorii-3629b",
+    "storage_bucket": "mobilenavigatorii-3629b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616613994413:android:ca27d5b787db7cbf",
+        "android_client_info": {
+          "package_name": "com.example.idgaf.mobilenavigatorii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616613994413-8c5muht86ai3h65q6k2tushvnbu6dlhp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.idgaf.mobilenavigatorii",
+            "certificate_hash": "b5f8bd2733fd21f164bd441dbbf0f5ec34690e4c"
+          }
+        },
+        {
+          "client_id": "616613994413-11tflesu24h09fjjhhvj44r3fluf5dm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8CBRCqDxTFrvLkhTd9bL9g8V4tkmCSAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616613994413-11tflesu24h09fjjhhvj44r3fluf5dm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616613994413:android:bb873db1a9d4df97",
+        "android_client_info": {
+          "package_name": "com.example.idgaf.mobilenavigatoriii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616613994413-l6c9ubunbtj15elain22h2hm5j5e8o4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.idgaf.mobilenavigatoriii",
+            "certificate_hash": "b5f8bd2733fd21f164bd441dbbf0f5ec34690e4c"
+          }
+        },
+        {
+          "client_id": "616613994413-11tflesu24h09fjjhhvj44r3fluf5dm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8CBRCqDxTFrvLkhTd9bL9g8V4tkmCSAw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616613994413-11tflesu24h09fjjhhvj44r3fluf5dm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

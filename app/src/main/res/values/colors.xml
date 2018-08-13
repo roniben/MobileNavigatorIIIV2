@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffff</color>
+    <color name="textField">#1fe28f</color>
+    <color name="loginButton">#1fe28f</color>
+    <color name="place_holder_text_color">#707070</color>
+    <color name="place_background_color">#cfcfcf</color>
+    <color name="selected_image_map_button_color">#ffd57a</color>
+    <color name="selected_image_transportation_button">#51f29a</color>
+    <color name="placeName_add_description">#51f29a</color>
+    <color name="placeName_add_description_editable">#f2ba4a</color>
+</resources>

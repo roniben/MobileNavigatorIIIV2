@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPlaceDescription">
+
+    <!--<TextView-->
+    <!--android:id="@+id/placeName_add_description"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:background="@color/placeName_add_description"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:text="PlaceName"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textSize="34sp"-->
+    <!--app:fontFamily="sans-serif-smallcaps"-->
+    <!--android:inputType="textCapSentences|textMultiLine"-->
+    <!--tools:ignore="TextViewEdits" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="5dp"-->
+    <!--android:text="Description" />-->
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="top|left"-->
+    <!--android:inputType="textMultiLine"-->
+    <!--android:lines="8"-->
+    <!--android:maxLines="10"-->
+    <!--android:minLines="6"-->
+    <!--android:scrollbars="vertical" />-->
+
+    <ImageView
+        android:id="@+id/place_addDescription"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/placeName_add_description_editable"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/place_addDescription"
+        android:layout_marginBottom="4dp"
+        android:gravity="center_horizontal"
+        android:text="@string/place_name"
+        android:textColor="@android:color/white"
+        android:id="@+id/place_name_title"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/place_addDescription"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="4dp"
+        android:text="Description" />
+
+    <EditText
+        android:id="@+id/description_add_description"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/description"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="4dp"
+        android:autoLink="all"
+        android:gravity="top|left"
+        android:inputType="textMultiLine|textCapSentences"
+        android:lines="5"
+        android:maxLines="10"
+        android:minLines="1"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/address_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_add_description"
+        android:layout_marginBottom="4dp"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/address_add_description"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/address_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:autoLink="all"
+        android:gravity="top|left"
+        android:inputType="textMultiLine|textCapSentences"
+        android:lines="5"
+        android:maxLines="10"
+        android:minLines="1"
+        android:scrollbars="none" />
+
+    <Button
+        android:id="@+id/button_uploadDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/transparent"
+        android:text="Upload" />
+
+
+</RelativeLayout>

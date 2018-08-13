@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:theme="@style/AppTheme.NoActionBar">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/Transportation_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transportations"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="28sp"/>
+
+        <ImageView
+            android:id="@+id/transportation_1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/Transportation_title"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/jeepney1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/fare_title"
+            android:layout_marginLeft="10dp"
+            android:text="Jeepney:Buruun or Fuentes"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/fare_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignBottom="@+id/transportation_1"
+            android:text="Fare:"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/transportation_1"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/fare_title"
+            android:layout_toRightOf="@+id/fare_title"
+            android:textColor="@color/white"
+            android:text="10 pesos"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@mipmap/driver"
+            android:scaleType="centerCrop"
+            android:id="@+id/transportation_12"
+            android:layout_below="@id/transportation_1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/fare_title2"
+            android:layout_marginLeft="10dp"
+            android:text="Jeepney:Buruun or Fuentes"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/fare_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignBottom="@+id/transportation_12"
+            android:text="Fare:"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fare2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/transportation_12"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/fare_title2"
+            android:layout_toRightOf="@+id/fare_title2"
+            android:textColor="@color/white"
+            android:text="10 pesos"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuItem"
+            android:icon="@drawable/ic_person"
+            android:title="First item" />
+        <item
+            android:id="@+id/menuItem2"
+            android:icon="@drawable/ic_send"
+            android:title="Second item" />
+    </group>
+
+    <item android:title="Next Level Menu">
+        <menu>
+            <item
+                android:id="@+id/NextMenuItem"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Menu Item" />
+            <item
+                android:id="@+id/NextMenuItem2"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+
+</menu>

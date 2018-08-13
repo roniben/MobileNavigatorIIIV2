@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MobileNavigatorIII</string>
+    <string name="mobilenavigatorlogo">MobileNavigatorLogo</string>
+    <string name="name_field">Name</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="button_text">Button</string>
+    <string name="login_signupLabel">Signup</string>
+    <string name="signup_nameLabel">Name</string>
+    <string name="signup_emailLabel">Email</string>
+    <string name="signup_usernameLabel">Username</string>
+    <string name="signup_logo">logo</string>
+
+    <string name="signup_usernamehint">Username</string>
+    <string name="signup_emailhint">Email</string>
+    <string name="signup_passwordhint">Password</string>
+    <string name="password_minimum">Password too short</string>
+    <string name="auth_failed">Oops! Something went wrong</string>
+    <string name="backbutton_label">backButton</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="login_label">Login</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="signup">Signup</string>
+    <string name="title_activity_landing">landingActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="api_key">AIzaSyB8CBRCqDxTFrvLkhTd9bL9g8V4tkmCSAw</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+    <string name="place_name">Place Name</string>
+    <string name="title_activity_selected_place_view_pager">selectedPlaceViewPager</string>
+    <string name="tab_text_1">Description</string>
+    <string name="tab_text_2">Transpo</string>
+    <string name="tab_text_3">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_selected_place">ActivitySelectedPlace</string>
+    <string name="title_activity_selected_place_page_adapter">SelectedPlacePageAdapter</string>
+    <string name="title_activity_selected_place_pager_adapter">SelectedPlacePagerAdapter</string>
+
+
+
+
+</resources>
